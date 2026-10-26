@@ -1,0 +1,33 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Model, Pipeline & Artifacts
+*.joblib
+*.keras
+*.h5
+*.pkl
+*.pt
+*.pth
+
+# Datasets
+*.parquet
+*.csv
+*.json
+
+# macOS / System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE / Editor Settings
+.vscode/
+.idea/
